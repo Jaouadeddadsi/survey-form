@@ -17,18 +17,16 @@ body {
 }
 
 .main-content {
-  flex-shrink: 3;
-  -webkit-box-flex: 5;
-          flex-grow: 5;
+
 }
 
 .advert {
-  flex-shrink: 1;
-  -webkit-box-flex: 1;
-          flex-grow: 1;
+
 }
 
 
 form#survey-form {
   background-color: rgba(0, 0, 0, 0.6);
+  min-width: 50vw;
+  border-radius: 5px
 }
