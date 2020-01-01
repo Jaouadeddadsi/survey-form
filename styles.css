@@ -10,11 +10,25 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-areas: ". content .";
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
 }
 
-.form-container {
-  grid-area: content;
+.main-content {
+  flex-shrink: 3;
+  -webkit-box-flex: 5;
+          flex-grow: 5;
+}
+
+.advert {
+  flex-shrink: 1;
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+}
+
+
+form#survey-form {
+  background-color: rgba(0, 0, 0, 0.6);
 }
