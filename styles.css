@@ -1,3 +1,14 @@
+body {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(100%, rgba(0, 0, 250, 0.5)), to(rgba(0, 0, 250, 0.5))),url("img/spftware-development-team.jpg");
+  background:linear-gradient( rgba(0, 0, 250, 0.5) 100%, rgba(0, 0, 250, 0.5)100%),url("img/spftware-development-team.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: sans-serif;
+  color: white;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
